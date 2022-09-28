@@ -8,29 +8,10 @@
     <title>Home - Whinstone Primary School</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="shortcut icon" type="image/png" sizes="32x32" href="https://whinstone.org.uk/wp-content/themes/understrap-child/favicon.png">
+    <Metadata />
   </head>
 <body>
-  <div class="top-bar">
-    <div class="top-bar-left">
-        <ul class="dropdown menu" data-dropdown-menu>
-            <li class="menu-text">
-            <img src="static/logo.png" width="190" height="47" />
-            </li>
-            <li><a href="index.html" style="font-size:28px">Home</a></li>
-            <li><a href="prospectus.html" style="font-size:28px">Prospectus</a></li>
-
-            <li>
-            <a href="#" style="font-size:30px">School</a>
-            <ul class="menu vertical">
-                <li><a href="contact.html" style="font-size:28px">Contact Us</a></li>
-                <li><a href="location.html" style="font-size:28px">Where to find us</a></li>
-                <li><a href="about.html" style="font-size:28px">About</a></li>
-            </ul>
-            </li>
-        </ul>
-    </div>
-</div>
+  <TopBar />
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
