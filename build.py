@@ -27,7 +27,6 @@ def formatFile(path):
     fileContents = f.read()
     replacedContents = fileContents
     for name in components:
-        print("<" + name.split(".")[0] + " />")
         replacedContents = replacedContents.replace("<" + name.split(".")[0] + " />", components[name])
     output.write(replacedContents)
     output.close()
